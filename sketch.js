@@ -29,20 +29,23 @@ function setup() {
 
    //write a code to set value of restitution such that:
   var ball_options = {
-    restitution: 0.95,
+    restitution: 0.99,
     frictionAir:0.01
    
 //Ball (white circle) bounces more when it hits the bottom.
 
+
   }
 
-  var rock_options = {
+  
+   // write a code to set value of restitution such that:
+   var rock_options = {
     restitution:0
     
-   // write a code to set value of restitution such that:
+  }
 
    // Rock (Red Circle) bounces less when it hits the bottom.
-  }
+   
    
   btn2 = createImg('up.png');
   btn2.position(350,30);
