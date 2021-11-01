@@ -40,7 +40,9 @@ function setup() {
   
    // write a code to set value of restitution such that:
    var rock_options = {
-    restitution:0
+      restitution: 0,
+    frictionAir:0.01
+    
     
   }
 
